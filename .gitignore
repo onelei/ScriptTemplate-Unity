@@ -1,47 +1,21 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# 以'#'开始的行，被视为注释.                                                                                                                          
 
-# Folder config file
-Desktop.ini
+# 忽略掉所有文件名是 foo.txt的文件.
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+#foo.txt
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# 忽略所有生成的 html文件,
 
-# Windows shortcuts
-*.lnk
+#*.html
 
-# =========================
-# Operating System Files
-# =========================
+# foo.html是手工维护的，所以例外.
 
-# OSX
-# =========================
+#!foo.html
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# 忽略所有.o和 .a文件.
 
-# Thumbnails
-._*
+#*.[oa]
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+scriptTemplate-unity/Library/
+scriptTemplate-unity/obj/
+scriptTemplate-unity/ProjectSettings/
